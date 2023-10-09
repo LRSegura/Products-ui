@@ -10,25 +10,12 @@ import {
     NavbarMenu,
     NavbarMenuToggle
 } from "@nextui-org/react";
-import {NavbarMenuItem} from "@nextui-org/navbar";
-import DropdownItemsNavigation from "@/components/DropdownItemsNavigation";
+
+import DropdownItemsNavigation from "../components/DropdownItemsNavigation";
 
 
 export default function Navigation() {
-    // const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-    //
-    // const menuItems = [
-    //     "Profile",
-    //     "Dashboard",
-    //     "Activity",
-    //     "Analytics",
-    //     "System",
-    //     "Deployments",
-    //     "My Settings",
-    //     "Team Settings",
-    //     "Help & Feedback",
-    //     "Log Out",
-    // ];
+
 
     return (
         <Navbar >
