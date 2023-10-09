@@ -1,5 +1,5 @@
 'use client'
-import ModalPriceCategory from "@/components/ModalPriceCategory";
+import ModalPriceCategory from "../../components/ModalPriceCategory";
 import TableItemsPriceCategory from "@/components/TableItemsPriceCategory";
 import React from "react";
 import {useDisclosure} from "@nextui-org/react";

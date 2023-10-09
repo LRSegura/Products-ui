@@ -1,7 +1,8 @@
-import FormClient from "@/components/FormClient";
+// import FormClient from "/components/FormClient";
 import TableClients from "@/components/TableClients";
 import React from "react";
 import Navigation from "../../components/Navigation";
+import FormClient from "../../components/FormClient";
 
 
 const Customers = () => {

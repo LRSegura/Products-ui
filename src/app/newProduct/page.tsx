@@ -1,5 +1,5 @@
 'use client'
-import FormProduct from "@/components/FormProduct";
+import FormProduct from "../../components/FormProduct";
 import Navigation from "../../components/Navigation";
 
 
