@@ -2,11 +2,11 @@
 import {useDisclosure} from "@nextui-org/react";
 import Image from "next/image";
 import Edit from "@/icons/pen.png";
-import Trash from "@/icons/trash.png";
+import Trash from "../icons/trash.png";
 import React from "react";
 import ModalPriceCategory from "@/components/ModalPriceCategory";
-import IProduct from "@/types/IProduct";
-import IPriceCategory from "@/types/IPriceCategory";
+import IProduct from "../types/IProduct";
+import IPriceCategory from "../types/IPriceCategory";
 
 const TableItemsPriceCategory = ({prices, products, deletePrice}:{prices:IPriceCategory[],products:IProduct[], deletePrice:any}) => {
 

@@ -1,6 +1,6 @@
-import IProduct from "@/types/IProduct";
+import IProduct from "../types/IProduct";
 import {useEffect, useState} from "react";
-import TableItemsProduct from "@/components/TableItemsProduct";
+import TableItemsProduct from "../components/TableItemsProduct";
 import IClient from "@/types/IClient";
 import axios from "axios";
 

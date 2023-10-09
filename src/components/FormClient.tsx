@@ -3,7 +3,7 @@ import React, {FormEventHandler, useEffect, useState} from "react";
 import IProduct from "@/types/IProduct";
 import { Checkbox } from "@nextui-org/react";
 import axios from "axios";
-import TableClients from "@/components/TableClients";
+import TableClients from "../components/TableClients";
 import IClient from "@/types/IClient";
 
 

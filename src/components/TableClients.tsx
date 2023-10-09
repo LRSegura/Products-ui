@@ -4,9 +4,9 @@ import Image from "next/image";
 // @ts-ignore
 import Edit from "@/icons/pen.png";
 // @ts-ignore
-import Trash from "@/icons/trash.png";
-import ModalClient from "@/components/ModalClient";
-import IClient from "@/types/IClient";
+import Trash from "../icons/trash.png";
+import ModalClient from "../components/ModalClient";
+import IClient from "../types/IClient";
 
 const TableClients = ({customers, deleteCustomer}:{customers:IClient[], deleteCustomer: any}) => {
 

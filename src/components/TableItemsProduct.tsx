@@ -2,9 +2,9 @@ import {useDisclosure} from "@nextui-org/react";
 import Image from "next/image";
 import React, {useState} from "react";
 import Edit from "@/icons/pen.png";
-import Trash from "@/icons/trash.png";
-import ModalProduct from "@/components/ModalProduct";
-import IProduct from "@/types/IProduct";
+import Trash from "../icons/trash.png";
+import ModalProduct from "../components/ModalProduct";
+import IProduct from "../types/IProduct";
 
 const TableItemsProduct = ({Products,deleteProduct}: {Products:IProduct[], deleteProduct:any}) => {
 

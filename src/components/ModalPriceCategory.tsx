@@ -2,10 +2,10 @@
 import React, {Key, ReactNode, useEffect, useState} from "react";
 
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, SelectItem, Select} from "@nextui-org/react";
-import IProduct from "@/types/IProduct";
+import IProduct from "../types/IProduct";
 import {log} from "util";
-import TableItemsPriceCategory from "@/components/TableItemsPriceCategory";
-import IPriceCategory from "@/types/IPriceCategory";
+import TableItemsPriceCategory from "../components/TableItemsPriceCategory";
+import IPriceCategory from "../types/IPriceCategory";
 import IClient from "@/types/IClient";
 import axios from "axios";
 
